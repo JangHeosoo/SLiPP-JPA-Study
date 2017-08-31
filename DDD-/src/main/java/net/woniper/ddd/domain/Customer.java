@@ -13,7 +13,7 @@ import java.util.List;
  * Created by woniper on 15. 6. 23..
  */
 @Entity
-public class Customer extends AbstractPersistable<Long> {
+public class Customer extends AbstractPersistable {
 
     private String name;
 
